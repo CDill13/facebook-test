@@ -47,7 +47,7 @@ class App extends Component {
               this.state.fbData.map(post => 
               <FBPost post={post}/>)
               : 
-              <p>You must be logged in and refresh the page to view images</p>
+              <p>You must log in then refresh the page to view your posts</p>
             }
           </div>
         </header>
