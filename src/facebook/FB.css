@@ -1,0 +1,10 @@
+.post {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+}
+.post p {
+   overflow: hidden;
+}
